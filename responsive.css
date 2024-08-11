@@ -1,0 +1,86 @@
+
+@media (max-width: 768px) {
+   
+    /*Navbar*/
+    .middle-section{
+       
+        margin-left: 60px;
+    }
+    .button-section{
+        margin-top: 60px;
+    }
+
+    .lister-jinish{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    .table_header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #732855;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 595px) {
+
+    body{
+        width: 600px;
+    }
+
+    .button-section{
+        margin-top: 60px;
+    }
+
+    .lister-jinish{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    /*Navbar*/
+    .middle-section{
+       
+        margin-left: 30px;
+    }
+
+    /*Card*/
+    .card .img{
+
+        height: 100%;
+    }
+    
+    /* Table */
+    .table_header{
+        padding: 3px; 
+    }
+  
+    .table_header p{
+        text-align: center;
+    }
+    .table input {
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (max-width:375px) {
+
+    
+    .table_header{
+        padding: 3px; 
+    }
+  
+    .table_header p{
+        text-align: center;
+    }
+    
+}
